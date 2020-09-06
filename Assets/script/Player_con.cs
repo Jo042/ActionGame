@@ -76,7 +76,7 @@ public class Player_con : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))//&& isjump == false)
         {
             anim.SetTrigger("jumpp");
-            rb.velocity = new Vector3(0, 5, 0);
+            rb.velocity = new Vector3(0, 0, 0);
             isjump = true;
         }
         else
